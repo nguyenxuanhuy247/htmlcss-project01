@@ -53,7 +53,7 @@ a {
 }
 /* ========= Header ========= */
 
-.header {
+.fixed-header {
     display: flex;
     top: -26px;
     position: sticky;
@@ -63,17 +63,17 @@ a {
     z-index: 1;
 }
 
-.header .content {
+.fixed-header .content {
     display: flex;
     align-items: center;
 }
 
-.header .navbar ul {
+.fixed-header .navbar ul {
     display: flex;
     margin-left: 50px;
 }
 
-.header .navbar a {
+.fixed-header .navbar a {
     display: flex;
     padding: 8px 14px;
     font-weight: 500;
@@ -82,19 +82,19 @@ a {
     color: #4f5361;
 }
 
-.header .actions {
+.fixed-header .actions {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.header .action-link {
+.fixed-header .action-link {
     font-weight: 500;
     font-size: 1.4rem;
     color: #0f1b4c;
 }
 
-.header .action-btn {
+.fixed-header .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
     font-weight: 500;
@@ -231,7 +231,6 @@ a {
     line-height: 1.88;
     text-align: center;
     color: #5a6473;
-    word-break: break-all;
 }
 
 .guide-list {
@@ -318,7 +317,7 @@ a {
 .featured-list {
     display: flex;
     margin-top: 70px;
-    gap: 10px;
+    gap: 30px;
 }
 
 .featured-list .featured-item {
@@ -339,7 +338,7 @@ a {
     padding: 17px 20px 22px;
 }
 
-.featured-item .body .place-name {
+.featured-item .body a {
     font-weight: 600;
     font-size: 2rem;
     line-height: 1;
@@ -352,6 +351,7 @@ a {
     font-size: 1.4rem;
     line-height: 1.5;
     color: #a3a6ab;
+    word-break: break-all;
 }
 
 .featured-item .body .info {
