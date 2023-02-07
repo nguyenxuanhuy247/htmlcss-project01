@@ -64,7 +64,7 @@ a {
     z-index: 1;
 }
 
-.fixed-header .content {
+.fixed-header .navbar {
     display: flex;
     align-items: center;
 }
